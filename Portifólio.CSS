@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgba(0, 100, 0, 0.500);
+}
+  
+header {
+    background-color: rgb(0, 50, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+  
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+  
+footer {
+    background-color: rgb(0, 50, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+.sobre {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    border: 1px solid #000;
+    background-color: rgba(0, 100, 0);
+    padding: 20px;
+}
+.sobre img {
+    width: 192px;
+    height: 256px;
+    border: 1px solid #000;
+}
+.sobre p {
+    margin-top: 86px;
+    margin-left: 15px;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    padding: 10px;
+}
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+nav li a{
+    color:#ffffff;
+}
+.AEC {
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgb(0, 100, 0);
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.AF {
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgb(0, 100, 0);
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.AFSC {
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgb(0, 100, 0);
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.ARA {
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgb(0, 100, 0);
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.ARPLM {
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgb(0, 100, 0);
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.AEC img{
+    width: 259px;
+    height: 145px;
+    border: 2px solid #000;
+}
+.AEC1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.AEC2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.AF2 img{
+    width: 248px;
+    height: 250px;
+}
+.AF1 img{
+    width: 393px;
+    height: 221px;
+}
+.AFSC1 img{
+    width: 210px;
+    height: 298px;
+}
+.AFSC2 img{
+    width: 200px;
+    height: 145px;
+}
+
+
